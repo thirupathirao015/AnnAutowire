@@ -18,7 +18,7 @@ public class App {
 	 */
 	public static void main(String[] args) 
 	{
-		
+		System.out.println("hi thirupathi");
 		//Resource r=new ClassPathResource("Bean.xml");
 		//BeanFactory factory=new XmlBeanFactory(r);
 		ApplicationContext context = new ClassPathXmlApplicationContext("Bean.xml");
